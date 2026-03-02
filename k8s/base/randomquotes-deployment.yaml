@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: randomquotes-web
-          image: paissad/randomquotes-k8s:0.0.1
+          image: paissad/randomquotes-k8s:latest
           resources:
             requests:
               memory: "64Mi"
